@@ -25,12 +25,6 @@ const Login =()=>{
     },[currentUser,navigate])
    
     
-    const handleGoogleSignIn=()=>{};
-
-    const handleFBSignIn=()=>{};
-
-    
-   
     
     
     const handleSubmitChange=(e)=>{
@@ -55,21 +49,8 @@ const Login =()=>{
                      Login
                  </h1> 
                  <div>
-                     <div className="social-login">
-                        <button className="btn google-btn social-btn" type="button" onClick={handleGoogleSignIn}>
-                            <span>
-                                <i className="fab fa-google-plus-g"></i> Sign in with Google+
-                            </span>
-                           
-                        </button>
-                        <button className="btn facebook-btn social-btn" type="button" onClick={handleFBSignIn}>
-                            <span>
-                                <i className="fab fa-facebook-f"></i>Sign in with Facebook+
-                            </span>
-                           
-                        </button>
-                     </div>
-                     <p style={{textAlign:"center"}}>OR</p>
+                 
+                     {/* <p style={{textAlign:"center"}}></p> */}
                      <input 
                      type="email"
                      id="inputEmail"
